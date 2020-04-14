@@ -7,11 +7,12 @@ import java.util.Scanner;
 public class Ex3_MoveList {
     public static void main(String[] args) {
         List<String> movieName = new ArrayList<>();
-        movieName.add("Avata");
-        movieName.add("Chicken Egg");
-        movieName.add("Lengendary");
+        movieName.add("Avengers 4: Endgame");
+        movieName.add("Aquaman");
+        movieName.add("Transformer");
         movieName.add("Harry Potter");
-        movieName.add("New Genaration");
+        movieName.add("X-men");
+
 
         System.out.println("1. Add movie\n2. Print list of movie\n3. Edit movie name\n4. Delete a movie\n5. Find the movie by name");
         Scanner scanner = new Scanner(System.in);
